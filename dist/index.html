@@ -13,13 +13,16 @@
       margin-left: 0 !important;
     }
   </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <link href="main.css" rel="stylesheet"></head>
 
 
 
 <body>
-  <div class="container">
+
+  <div class="container" id="test">
 
     <p>---</p>
     <a href="https://www.sidum.net" target="_blank">
@@ -31,6 +34,7 @@
     <span>
       <strong>Vorname Nachname</strong>
     </span>
+
     <span>| Position | Ressortzugehörigkeit</span>
     <div>
       <strong>SIDUM e.V.</strong> - Studenten beraten Unternehmen</div>
@@ -90,9 +94,26 @@
 
   </div>
 
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <button class="btn waves-effect waves-light" data-clipboard-target="#test" style="width:100px">
+          <i class="material-icons">content_copy</i>
+        </button>
+
+      </div>
+    </div>
+  </div>
 
 
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
 
 <script type="text/javascript" src="bundle.js"></script></body>
 
